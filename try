@@ -1,0 +1,58 @@
+<EnterpriseArchitecture>
+    <BusinessLayer>
+        <RolesAndActors>
+            <Role name="User"/>
+            <Actor name="Visitor"/>
+        </RolesAndActors>
+        
+        <BusinessServices>
+            <Service name="Visitor Information Service"/>
+            <Service name="Tour Booking Service"/>
+            <Service name="Event Notification Service"/>
+        </BusinessServices>
+
+        <BusinessProcesses>
+            <Process name="Provide Visitor Information"/>
+            <Process name="Verify Account"/>
+            <Process name="Receive Booking Request"/>
+            <Process name="Verify Availability"/>
+            <Process name="Confirm Reservations"/>
+            <Process name="Handle Payment"/>
+            <Process name="Send Event Notification"/>
+        </BusinessProcesses>
+    </BusinessLayer>
+
+    <ApplicationLayer>
+        <ApplicationServices>
+            <Service name="Information Display Service"/>
+            <Service name="Booking Processing Service"/>
+            <Service name="Event Alert Service"/>
+        </ApplicationServices>
+        
+        <ApplicationComponents>
+            <Component name="Visitor Information System"/>
+            <Component name="Booking Management System"/>
+            <Component name="Event Notification System"/>
+        </ApplicationComponents>
+    </ApplicationLayer>
+
+    <TechnologyLayer>
+        <TechnologyServices>
+            <Service name="Web Hosting Service"/>
+            <Service name="Data Storage Service"/>
+            <Service name="Notification Delivery Service"/>
+        </TechnologyServices>
+
+        <Technologies>
+            <Technology name="Web Hosting Service">
+                <Software>Web Server Software</Software>
+            </Technology>
+            <Technology name="Data Storage Service">
+                <Software>DBMS</Software>
+            </Technology>
+            <Technology name="Notification Delivery Service">
+                <Software>Notification Software</Software>
+            </Technology>
+        </Technologies>
+    </TechnologyLayer>
+</EnterpriseArchitecture>
