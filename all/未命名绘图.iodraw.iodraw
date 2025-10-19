@@ -1,0 +1,81 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.17">
+  <diagram name="第 1 页" id="E-k7t3g0h2mig1quE_g9">
+    <mxGraphModel dx="838" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-1" value="System Architecture" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="856" height="731" as="geometry" />
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-2" value="Flutter Front-End App&#xa;(State Management: Provider)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ikBL6V_PGCT6_Zvy6lza-1">
+          <mxGeometry x="342" y="46" width="217" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-3" value="FastAPI Backend&#xa;(Endpoints: /yolo/detect, /recommend)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ikBL6V_PGCT6_Zvy6lza-1">
+          <mxGeometry x="248" y="227" width="246" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-4" value="YOLOv10 Detection Service&#xa;(Ultralytics Model)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ikBL6V_PGCT6_Zvy6lza-1">
+          <mxGeometry x="43" y="417" width="255" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-5" value="MySQL Database&#xa;re_users, re_recipes, re_ingredients" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="ikBL6V_PGCT6_Zvy6lza-1">
+          <mxGeometry x="191" y="590" width="166" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-6" value="Recommendation Engine&#xa;(sklearn Collaborative &amp;amp; Content Filtering)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ikBL6V_PGCT6_Zvy6lza-1">
+          <mxGeometry x="400" y="408" width="241" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-7" value="Personalized Recipe Results&#xa;(JSON Response to Flutter)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="ikBL6V_PGCT6_Zvy6lza-1">
+          <mxGeometry x="566" y="612" width="259" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-8" value="JSON / MultipartFormData" style="curved=1;startArrow=none;endArrow=block;exitX=0.33;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ikBL6V_PGCT6_Zvy6lza-1" source="ikBL6V_PGCT6_Zvy6lza-2" target="ikBL6V_PGCT6_Zvy6lza-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="371" y="178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-9" value="/yolo/detect request" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ikBL6V_PGCT6_Zvy6lza-1" source="ikBL6V_PGCT6_Zvy6lza-3" target="ikBL6V_PGCT6_Zvy6lza-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-10" value="Store detected ingredients" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.17;entryY=0;rounded=0;" edge="1" parent="ikBL6V_PGCT6_Zvy6lza-1" source="ikBL6V_PGCT6_Zvy6lza-4" target="ikBL6V_PGCT6_Zvy6lza-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="541" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-11" value="/recommend request" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="ikBL6V_PGCT6_Zvy6lza-1" source="ikBL6V_PGCT6_Zvy6lza-3" target="ikBL6V_PGCT6_Zvy6lza-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-12" value="Query user + recipe data" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=1;entryX=0.98;entryY=0;rounded=0;" edge="1" parent="ikBL6V_PGCT6_Zvy6lza-1" source="ikBL6V_PGCT6_Zvy6lza-6" target="ikBL6V_PGCT6_Zvy6lza-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423" y="541" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-13" value="Recommended recipes" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0.4;entryY=0.01;rounded=0;" edge="1" parent="ikBL6V_PGCT6_Zvy6lza-1" source="ikBL6V_PGCT6_Zvy6lza-6" target="ikBL6V_PGCT6_Zvy6lza-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="617" y="541" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikBL6V_PGCT6_Zvy6lza-14" value="Display on UI" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=0.01;entryX=1;entryY=0.89;rounded=0;" edge="1" parent="ikBL6V_PGCT6_Zvy6lza-1" source="ikBL6V_PGCT6_Zvy6lza-7" target="ikBL6V_PGCT6_Zvy6lza-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="747" y="541" />
+              <mxPoint x="747" y="178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
