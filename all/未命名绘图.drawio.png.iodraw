@@ -1,0 +1,139 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.17">
+  <diagram name="第 1 页" id="ckvN1kXqgBaF5NrkZgW5">
+    <mxGraphModel dx="1676" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="150" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-2" value="Flutter Front-End" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="366" y="20" width="150" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-3" value="FastAPI Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="749" y="20" width="150" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-4" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="lIOPbXQaLcSilt9v_gkT-3" vertex="1">
+          <mxGeometry x="70" y="151" width="10" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-5" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="lIOPbXQaLcSilt9v_gkT-3" vertex="1">
+          <mxGeometry x="70" y="469" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-6" value="YOLOv10 Detection Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="1034" y="20" width="213" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-7" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="lIOPbXQaLcSilt9v_gkT-6" vertex="1">
+          <mxGeometry x="101" y="199" width="10" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-8" value="MySQL Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="1297" y="20" width="150" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-9" value="Recommendation Engine (sklearn)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
+          <mxGeometry x="1595" y="20" width="256" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-10" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" parent="lIOPbXQaLcSilt9v_gkT-9" vertex="1">
+          <mxGeometry x="123" y="517" width="10" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-11" value="Capture or upload image" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-1" target="lIOPbXQaLcSilt9v_gkT-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-12" value="HTTP POST /yolo/detect (MultipartFormData)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-2" target="lIOPbXQaLcSilt9v_gkT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-13" value="Send image for object detection" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-4" target="lIOPbXQaLcSilt9v_gkT-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="993" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-14" value="Process image (Ultralytics model inference)" style="curved=1;endArrow=block;rounded=0;" parent="1" source="lIOPbXQaLcSilt9v_gkT-7" target="lIOPbXQaLcSilt9v_gkT-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1195" y="267" />
+              <mxPoint x="1195" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-15" value="Return detected ingredients (JSON)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-7" target="lIOPbXQaLcSilt9v_gkT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="994" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-16" value="Store detected ingredients (re_ingredients, re_user_ingredients)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-4" target="lIOPbXQaLcSilt9v_gkT-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1108" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-17" value="Request recommended recipes" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-1" target="lIOPbXQaLcSilt9v_gkT-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-18" value="HTTP GET /recommend" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-2" target="lIOPbXQaLcSilt9v_gkT-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-19" value="Invoke sklearn recommendation model" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-5" target="lIOPbXQaLcSilt9v_gkT-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1284" y="537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-20" value="Query user preferences + ingredient data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-10" target="lIOPbXQaLcSilt9v_gkT-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1557" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-21" value="Return matched records" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-8" target="lIOPbXQaLcSilt9v_gkT-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1554" y="633" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-22" value="Return ranked recipe list" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-10" target="lIOPbXQaLcSilt9v_gkT-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1285" y="681" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-23" value="Send recommended recipes (JSON)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-5" target="lIOPbXQaLcSilt9v_gkT-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="642" y="729" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIOPbXQaLcSilt9v_gkT-24" value="Display personalized recipe suggestions" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" source="lIOPbXQaLcSilt9v_gkT-2" target="lIOPbXQaLcSilt9v_gkT-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="777" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
